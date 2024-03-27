@@ -1,0 +1,14 @@
+{
+  "name": "curso-node-y-express",
+  "version": "1.0.0",
+  "description": "My first server created using Node and Express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lud-lihuen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
