@@ -1,3 +1,3 @@
 # Apuntes Cursos
 
-Apuntes cursos programación
+Mis apuntes de cursos de programación
