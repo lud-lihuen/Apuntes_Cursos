@@ -59,7 +59,7 @@ with open('ruta_archivo', 'w', encoding='UTF-8') as archivo:
 #Con argumento 'a' en el open, el metodo write funciona como append y agrega sin sobreescribir
 
 # ------------------------------
-# ARCHIVOS CSV (Vectores Separados por Comas)
+# ARCHIVOS CSV (Valores Separados por Comas)
 # ------------------------------
 
 #Importar:
