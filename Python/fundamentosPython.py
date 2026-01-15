@@ -68,6 +68,19 @@ diccionario['a'] = False
 1 % 1 #modulo o resto de la division
 
 # ------------------------------
+# OPERAR CON VARIABLES
+# ------------------------------
+
+#Concatenar strings:
+nombre = 'Lihuen'
+bienvenida = 'Hola ' + nombre + ', bienvenido'
+bienvenida = f'Hola {nombre}, bienvenido' #f-strings
+
+#Desempaquetar arrays:
+datos = ['a','b']
+a,b = datos #define a='a' y b='b'
+
+# ------------------------------
 # OPERADORES DE COMPARACIÓN
 # ------------------------------
 
@@ -170,19 +183,6 @@ i = 0
 while i < 10:
     print(i)
     i += 1
-
-# ------------------------------
-# OPERAR CON VARIABLES
-# ------------------------------
-
-#Concatenar strings:
-nombre = 'Lihuen'
-bienvenida = 'Hola ' + nombre + ', bienvenido'
-bienvenida = f'Hola {nombre}, bienvenido' #f-strings
-
-#Desempaquetar arrays:
-datos = ['a','b']
-a,b = datos #define a='a' y b='b'
 
 # ------------------------------
 # METODOS DE CADENA
