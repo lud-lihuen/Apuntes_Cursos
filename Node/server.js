@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 
 // Ruta del recurso sin modificaciones:
 // app.get('/api/products', (req, res) => {
-//  res.json(productList.products);
+//   res.json(productList.products);
 // });
 
 // Para enviar respuestas en formato json:
