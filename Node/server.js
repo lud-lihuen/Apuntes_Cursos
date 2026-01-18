@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
 // Para enviar respuestas en formato json:
 // res.json();
 // Es equivalente a:
-// res.json());
+// res.send();
 
 // Ruta del recurso con parametro query:
 app.get('/api/products', (req, res) => {
