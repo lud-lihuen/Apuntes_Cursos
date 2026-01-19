@@ -31,7 +31,7 @@ app.get('/api/products', (req, res) => {
 // Manejo de solicitud por metodo post:
 app.post('/api/products', (req, res) => {
   let newProduct = req.body;
-  productList.push(newProduct);
+  productList.products.push(newProduct);
   res.json(productList.products);
 });
 
